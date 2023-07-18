@@ -12,3 +12,5 @@ kubectl delete pod nginx-pod
  - usado para deletar determinado pod
  kubectl delete pod -f .\primeiro-pod.yaml
  - usado para deletar o pod usando o arquivo de definição (-f de file)
+ kubectl exec -it svc-pod-1 -- bash
+ - usado para executar pode (-it para modo iterativo)(-- bahs para usar o bash)
